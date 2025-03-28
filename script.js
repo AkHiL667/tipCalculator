@@ -12,7 +12,7 @@ calcButton.addEventListener('click', () => {
   let displayTip = tip.toFixed(2);
   tipDisplay.textContent = displayTip;
   let total = bill + tip;
-  totalDisplay.textContent = total;
+  totalDisplay.textContent = total.toFixed(2);
 });
 
 resetButton.addEventListener('click', function () {
